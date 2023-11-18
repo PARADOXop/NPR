@@ -2,10 +2,7 @@ import base64
 import requests
 import json
 import re
-from dotenv import load_dotenv
-load_dotenv()
-url = os.getenv('url')
-
+url = 'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyDhDrrttSbx4BteGQ4RWPmZcYEg--st2Rs'
 #
 
 
